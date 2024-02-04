@@ -165,15 +165,6 @@ class RouterSimulation:
     def actualizar_icono_router(self, event=None):
         for router, (label_router, _) in zip(self.routers, self.labels_routers):
             label_router.config(image=self.imagen_conectado if router.enlace_conectado else self.imagen_desconectado)
-
-    # Modifica las funciones en la clase RouterSimulation
-
-    # Modifica las funciones en la clase RouterSimulation
-
-    # Modifica la función en la clase RouterSimulation
-
-    # Modifica la función en la clase RouterSimulation
-
     def simular_desconexion(self):
         router_seleccionado_nombre = self.router_seleccionado.get()
 
